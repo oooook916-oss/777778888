@@ -221,7 +221,9 @@ input,select,textarea {
 #chat-room #chat-control button.active {
     background-color: #705E5E
 }
-
+#chat-room #chat-control button:nth-child(3) {
+    display: none !important;
+}
 #chat-room #chat-room-inner {
     background: hsla(0,0%,4%,.3);
     bottom: 0;
