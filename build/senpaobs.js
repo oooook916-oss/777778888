@@ -15979,7 +15979,7 @@ function _0x67c8() {
     if (!inner) return;
     if (!xprvtStyleEl) {
       xprvtStyleEl = document.createElement("style");
-      xprvtStyleEl.textContent = ".xprvt-overlay{display:none;position:fixed;overflow:auto;z-index:2147483646;}" +
+      xprvtStyleEl.textContent = ".xprvt-overlay{display:none;} [data-xprvt-mode], button[data-xprvt-mode] {display:none !important;}" +
         "#chat-control[data-xprvt-mode=\"1\"] button:not([data-xprvt-tab=\"1\"]) {" +
         "background-color: transparent !important; box-shadow: none !important;" +
         "}";
